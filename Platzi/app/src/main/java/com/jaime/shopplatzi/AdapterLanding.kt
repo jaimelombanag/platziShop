@@ -28,6 +28,7 @@ class AdapterLanding(val data:List<ItemLanding>): RecyclerView.Adapter<AdapterLa
 
             }
 
+
         }
     }
 
