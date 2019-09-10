@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ShopPlatzi</string>
+    <string name="appbar_scroll">Aca va un String</string>
+
+
+
 </resources>

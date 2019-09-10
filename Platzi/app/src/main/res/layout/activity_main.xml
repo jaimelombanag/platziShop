@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="230dp"
             android:fitsSystemWindows="true"
-            app:theme = "@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -44,15 +44,15 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
-    
+
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rcViewLanding"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-    app:layout_behavior="@string/app_name">
-
-
+            app:behavior_overlapTop="30dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
     </androidx.recyclerview.widget.RecyclerView>
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

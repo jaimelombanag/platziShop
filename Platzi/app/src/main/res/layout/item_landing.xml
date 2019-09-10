@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shoe_placeholder"/>
+
+
+       <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="10dp"
+               android:orientation="vertical">
+
+           <TextView
+                   android:id="@+id/txtTitleItem"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:text="titulo" android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+           <TextView
+                   android:id="@+id/txtDescItem"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:text="titulo" android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+           <TextView
+                   android:id="@+id/txtPriceItem"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:text="titulo"
+                   android:textColor="@color/colorAccent"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                   android:layout_gravity="end"/>
+
+
+
+
+       </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
