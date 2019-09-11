@@ -11,9 +11,6 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        intent?.let {
 
-            txt_detail.text = it.extras.getString("text")
-        }
     }
 }
