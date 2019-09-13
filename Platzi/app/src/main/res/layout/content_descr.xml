@@ -15,30 +15,42 @@
             android:padding="10dp">
 
 
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:textSize="24sp"
-                  tools:text="Titulo"
-                  />
-
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:textSize="18sp"
-                  tools:text="Descrip"
+        <TextView
+                android:id="@+id/txtDetailTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:transitionName="transitionTitle"
+                tools:text="Titulo"
         />
 
-        <TextView android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:textSize="20sp"
-                  tools:text="$$$"
-                  android:textColor="@color/colorAccent"
-                  android:layout_gravity="end"/>
+        <TextView
+                android:id="@+id/txtDetailDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:transitionName="transitionDesc"
+                tools:text="Descrip"
+        />
 
-        <TextView android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:textSize="18sp"
-                  tools:text="$$$"
-                  />
+        <TextView
+                android:id="@+id/txtDetailPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                tools:text="$$$"
+                android:textColor="@color/colorAccent"
+                android:transitionName="transitionPrice"
+                android:layout_gravity="end"/>
+
+        <TextView
+                android:id="@+id/txtDetailLongDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                tools:text="@string/loremipsu"
+        />
 
 
     </LinearLayout>
